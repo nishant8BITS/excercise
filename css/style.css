@@ -1,0 +1,256 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  color: #333333;
+  font-family: 'Amatic SC', cursive;
+}
+
+/* Navbar */
+.logo_image {
+    width: 50%; 
+    padding-left: 20px;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1; 
+}
+
+.navbar {
+    background-color: white;
+    /* padding: 0.3rem 1rem; */
+ 
+}
+
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #DC3545;
+    font-family: 'Amatic SC', cursive;
+    font-size: 160%;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+.navbar-expand-lg {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+nav a {
+    font-size: 1.2em;
+}
+        
+/* Intro */
+
+.introduction-container {
+    height: 100vh;
+
+    background: url("../images/heading2.jpg") no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4)
+}
+
+/* Jumbotron */
+.jumbotron {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
+        max-width: 600px;
+        margin: 15px auto;
+}
+
+.jumbotron-header {
+    font-size:xxx-large;
+}
+
+.jumbotron-paragraph {
+    font-size:xx-large;
+}
+
+/* Intro separator */
+
+.intro-separator {
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-top: 1.5px solid rgb(15 15 11 / 47%);
+    width: 30%;
+}
+
+/* Divider */
+
+.divider {
+    margin: auto;
+}
+
+.divider-picture {
+    display: flex;
+    margin: 20px auto;
+}
+
+/* Intro */
+
+#intro-wrapper {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 20%;
+    padding: 25px 15px;
+    border-style: solid;
+    border-width: 5px 20px; 
+    border-color: grey;
+    border-radius: 20%;
+}
+
+.intro-text {
+    padding-left: 20px;
+    display: right;
+}
+
+.intro-picture {
+    max-width: 100%;
+    min-width: 200px; 
+    /* display:block;  */
+    width:70%;
+    height:auto;
+}
+ .intro .picture2 {
+  border-radius: 40%;
+  width: 100%;
+  height: auto;
+} 
+
+
+
+/* Activity container */
+
+.activity-container {
+    background: url("../images/backgroundimage.jpg") no-repeat top center fixed; ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: #333333;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.activity-list{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    /* border-style: solid;
+    border-width: 5px 20px; 
+    border-color: white;
+    position:relative; */
+    
+} 
+
+.activity-list > * {
+    width:30%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    border-style: solid;
+    border-width: 1px 1px; 
+    border-color: #888a8b;
+    text-align: justify;
+    /* border-radius: 10%; */
+    background: white;
+ }
+
+.activity-heading {
+    font-family: "Raleway", sans-serif;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.act-list-heading {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 23px;
+    color: #DC3545;
+}
+
+
+/* flex */
+
+/* .flex-container {
+    background: #8c8c8c;
+	margin: 0px 40px;
+}
+
+.column-layout {
+	max-width: 1300px;
+	background-color: #FFF;
+	margin: 40px auto 0 auto;
+	line-height: 1.65;
+	padding: 20px 50px;
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.main-column {
+	flex:2;
+	order: 2;
+}
+
+.sidebar-one {
+	flex:1;
+	order: 1;
+}
+
+.sidebar-two {
+	flex:1;
+	order: 3;
+} */
