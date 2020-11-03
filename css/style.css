@@ -28,7 +28,6 @@ body {
 
 .navbar {
     background-color: white;
-    /* padding: 0.3rem 1rem; */
  
 }
 
@@ -91,7 +90,7 @@ nav a {
 
 /* Jumbotron */
 .jumbotron {
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.7) 21.41%, rgba(255, 255, 255, 0.7) 78.6%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 21.41%, rgba(255, 255, 255, 0.8) 78.6%, rgba(255, 255, 255, 0) 100%);
         max-width: 600px;
         margin: 15px auto;
 }
@@ -127,47 +126,27 @@ nav a {
 
 /* Intro */
 
-#intro-wrapper {
-    margin: 0px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-.intro {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    margin: 20px 20%;
-    padding: 25px 15px;
-    border-style: solid;
-    border-width: 5px 20px; 
-    border-color: grey;
-    border-radius: 20%;
+#middle .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.intro-text {
-    padding-left: 20px;
-    display: right;
-}
-
-.intro-picture {
-    max-width: 100%;
-    min-width: 200px; 
-    /* display:block;  */
-    width:70%;
-    height:auto;
-}
- .intro .picture2 {
-  border-radius: 40%;
+.picture2 {
   width: 100%;
-  height: auto;
-} 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+
 
 
 
 /* Activity container */
 
 .activity-container {
-    background: url("../images/backgroundimage.jpg") no-repeat top center fixed; ;
+    background-color: #ddd;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -176,35 +155,34 @@ nav a {
     font-size: 15px;
     color: #333333;
     padding-top: 50px;
-    padding-bottom: 50px;
 
 }
-.activity-list{
-    display: flex;
-    flex-direction: row;
-    margin: 100px 10%;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    /* border-style: solid;
-    border-width: 5px 20px; 
-    border-color: white;
-    position:relative; */
+    
+.activity-container .container {
+    background: white;
+    padding: 20px;
+    border: 6px solid #ddd;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 150px;
     
 } 
 
+
+.activity-picture {
+    width:100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
 .activity-list > * {
-    width:30%;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 50px;
-    border-style: solid;
-    border-width: 1px 1px; 
-    border-color: #888a8b;
-    text-align: justify;
-    /* border-radius: 10%; */
-    background: white;
- }
+ transition: all .5s ease-in-out;
+}
+
+.activity-list > *:hover {
+    transform: scale(1.1);
+}
 
 .activity-heading {
     font-family: "Raleway", sans-serif;
@@ -222,35 +200,22 @@ nav a {
 }
 
 
-/* flex */
+/* Footer */
 
-/* .flex-container {
-    background: #8c8c8c;
-	margin: 0px 40px;
+footer {
+    background: grey;
+    color: white;
+    height: 50px;
+    margin-top: -50px;
 }
 
-.column-layout {
-	max-width: 1300px;
-	background-color: #FFF;
-	margin: 40px auto 0 auto;
-	line-height: 1.65;
-	padding: 20px 50px;
-	display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+footer p {
+    text-align: right;
+    padding-top: 15px;
+    margin-bottom: 0;
 }
 
-.main-column {
-	flex:2;
-	order: 2;
+.blockquote-footer {
+    background: none;
+    margin-top: 0px;
 }
-
-.sidebar-one {
-	flex:1;
-	order: 1;
-}
-
-.sidebar-two {
-	flex:1;
-	order: 3;
-} */
