@@ -65,7 +65,6 @@ nav a {
 
 .introduction-container {
     height: 100vh;
-
     background: url("../images/heading2.jpg") no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -207,6 +206,9 @@ footer {
     color: white;
     height: 50px;
     margin-top: -50px;
+    z-index: 1;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
 }
 
 footer p {
@@ -219,3 +221,51 @@ footer p {
     background: none;
     margin-top: 0px;
 }
+
+
+
+/* GALLERY.HTML */
+
+.holder-container {
+    margin: 30px 100px;
+    background: #f1fffe;
+    height: 380px;
+    overflow-x: scroll;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.food-container {
+    margin: 30px 100px;
+    background: #faf5bf;
+    height: 380px;
+    overflow-x: scroll;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.heading-gallery-container {
+    margin: 30px 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+iframe {
+   float: left;
+   width: 100%;
+}
+
