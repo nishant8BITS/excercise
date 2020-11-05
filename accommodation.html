@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Trip to Kilbronogue">
+    <meta name="Description" content="Kilbronogue trip">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
@@ -47,99 +47,115 @@
             </nav>
 
  <section id="accommodation_info">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-5 col-xs-6">
-                     <h2>Lorem</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's 
-                    standard dummy text ever since the 1500s, when an unknown 
-                    printer took a galley of type and scrambled it to make a 
-                    type specimen book. It has survived not only five centuries, 
-                    but also the leap into electronic typesetting, remaining 
-                    essentially unchanged. It was popularised in the 1960s with 
-                    the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum</p>
+        <div class="container accommodation-container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2>Gort na Gaoithe</h2>
+                    <p> - The Field of the Wind</p>
+                    <img class="home-picture" src="images/home_3.jpg" alt="Kilbronogue house">
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <h2>Lorem</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's 
-                    pularised in tt sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum</p>
+                <div class="col-md-4">
+                    <h2>title</h2>
+                    <p>text</p>
+                    
                 </div>
             </div>
         </div>
     </section>    
 
-    <section id="Kilbronogue_map">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-sm-5 col-xs-6 float-left">
-                    <h2> Please, leave your personal details: </h2>
-                    <form>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputName">Name</label>
-                        <input type="text" class="form-control" id="inputName" placeholder="ex Tom, Clara...">
+ <div class="row justify-content-center">
+    <div class="col-md-8 col-sm-8 accommodation-table">
+        <table class="table table-sm">
+        <caption> For more information about placenames<a href="https://www.geographyinaction.co.uk/Text_based_site/Placenames/pnamesmeaning.html"> click here </a></caption>
+            <thead>
+                <tr>
+                <th scope="col"></th>
+                <th scope="col">Anglicised form</th>
+                <th scope="col">Meaning</th>
+                <th scope="col">Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Gort</th>
+                    <td>Gort, gart</td>
+                    <td>Enclosed field</td>
+                    <td>Gortnamony (<em>Gort na Mónadh</em> - enclosed field of the bog)</td>
+                </tr>
+                <tr>
+                    <th scope="row">-na-</th>
+                    <td>-na-</td>
+                    <td>of the</td>
+                    <td>Culnafay (<em>Cuíl na Bheithe</em> - corner of the birch)</td>
+                </tr>
+                <tr>
+                    <th scope="row">Gaoithe</th>
+                    <td>Gee</td>
+                    <td>Wind</td>
+                    <td>Drumnagee (<em>Droim na Gaoith</em> - ridge of the wnd)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+ </div>
+
+<section id="hotel-info">
+    <div class="container hotel-container">
+        <div class="row justify-content-center">
+            <div class="col-md-5 float-left hotel-container-left">
+                <h2 class="heading-hotel-container"> Please, leave your personal details: </h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="ex Tom, Clara...">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastname">Last name</label>
+                            <input type="text" class="form-control" id="inputLastname" placeholder="ex Pitt, Cordon...">
+                        </div>
                     </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputLastname">Last name</label>
-                        <input type="text" class="form-control" id="inputLastname" placeholder="ex Pitt, Cordon...">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                     </div>
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                     </div>
-                    <div class="form-group col-md-4">
-                    <label for="inputCountry">Country</label>
-                        <input type="text" class="form-control" id="inputCountry" placeholder="Country">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputCountry">Country</label>
+                            <input type="text" class="form-control" id="inputCountry" placeholder="Country">
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
                     </div>
-                  
-                   
-                    <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                    
+                    <button type="submit" class="btn btn-outline-light hotel-button">Submit</button>
                 </form>
                 </div>
-              
-                <div class="col-md-5 col-sm-4 float-right">
-                    <h2>Kilbronogue</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19855.69539415808!2d-9.509179567319539!3d51.53225819689638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484598c1e58226e5%3A0x23495f0c3cb45a2d!2sKilbronoge%2C%20Kilbronogue%2C%20Co.%20Cork!5e0!3m2!1sen!2sie!4v1604456713867!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
+            
+            <div class="col-md-5 float-right hotel-container-right">
+                <h2 class="heading-hotel-container">Kilbronogue on map:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19855.69539415808!2d-9.509179567319539!3d51.53225819689638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484598c1e58226e5%3A0x23495f0c3cb45a2d!2sKilbronoge%2C%20Kilbronogue%2C%20Co.%20Cork!5e0!3m2!1sen!2sie!4v1604456713867!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
-    </section>    
-   
+    </div>
+</section>    
+
      
   <footer>
     <div class="container-fluid">
