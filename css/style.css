@@ -263,27 +263,44 @@ footer p {
 
 /* ACCOMODATION.HTML  */
 
+.heading-main {
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    
+}
 
 .home-picture {
   width: 100%;
   padding: 5px;
 }
+
+.main-accommodation-table {
+    background-color: #e8e8b8;
+}
 .accommodation-table {
+    margin: 35px 200px;
     font-family: sans-serif;
     font-size: 12px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    background-color: beige;
 }
 
-#accommodation.info {
+#accommodation-info {
     margin-top: 50px;
     margin-bottom: 60px;
 }
 
-#hotel.info {
-    background-color: #474d52;
+.accommodation-container-right {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#hotel-info {
     margin-bottom: 50px;
     margin-top: 50px;
+    background-color: #474d52;
+
 }
 .heading-hotel-container {
     margin-bottom: 50px;
@@ -317,13 +334,51 @@ footer p {
     font-size: 20px;
 }
 
-
+.form-control {
+    height: calc(1em + .60rem + 2px);
+    line-height: 1;
+    font-size: 26px;
+}
 
 iframe {
    float: left;
    width: 100%;
 }
 
+.border-tr {
+    border-color: red;
+}
 
+
+
+
+/* Footer, Accommodation */
+
+.accommodation-footer {
+    background-color: rgb(65, 62, 62);
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: grey;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
 
 
